@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Nowoczesna strona logowania</title>
+</head>
+
+<body>
+
+    <div class="kontener" id="kontener">
+        <div class="formularz-kontener zarejestruj-sie">
+            <form>
+                <h1>Utwórz konto</h1>
+                <div class="ikony-społecznościowe">
+                    <a href="#" class="ikona"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="ikona"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="ikona"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="ikona"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>lub użyj swojego adresu e-mail do rejestracji</span>
+                <input type="text" placeholder="Imię">
+                <input type="email" placeholder="Adres e-mail">
+                <input type="password" placeholder="Hasło">
+                <button>Zarejestruj się</button>
+            </form>
+        </div>
+        <div class="formularz-kontener zaloguj-sie">
+            <form>
+                <h1>Zaloguj się</h1>
+                <div class="ikony-społecznościowe">
+                    <a href="#" class="ikona"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="ikona"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="ikona"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="ikona"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>lub użyj swojego hasła e-mail</span>
+                <input type="email" placeholder="Adres e-mail">
+                <input type="password" placeholder="Hasło">
+                <a href="#">Zapomniałeś hasła?</a>
+                <button>Zaloguj się</button>
+            </form>
+        </div>
+        <div class="przełącznik-kontener">
+            <div class="przełącznik">
+                <div class="panel-przełącznika lewy-panel">
+                    <h1>Witaj ponownie!</h1>
+                    <p>Wpisz swoje dane osobowe, aby korzystać ze wszystkich funkcji strony</p>
+                    <button class="ukryty" id="login">Zaloguj się</button>
+                </div>
+                <div class="panel-przełącznika prawy-panel">
+                    <h1>Cześć, przyjacielu!</h1>
+                    <p>Zarejestruj się, podając swoje dane osobowe, aby korzystać ze wszystkich funkcji strony</p>
+                    <button class="ukryty" id="register">Zarejestruj się</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
